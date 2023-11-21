@@ -25,11 +25,11 @@ const displayEntries = () => {
     })
     .join("\n");
   const table = `<table class="table-auto w-full"><tr>
-    <th">Name</th>
-    <th">Email</th>
-    <th">Password</th>
-    <th">dob</th>
-    <th">accepted terms?</th>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Password</th>
+    <th>dob</th>
+    <th>accepted terms?</th>
     </tr>${tableEntries}</table>`;
   let details = document.getElementById("user-entries");
   details.innerHTML = table;
